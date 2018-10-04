@@ -1,25 +1,24 @@
-mkdir XX£º´´½¨Ò»¸ö¿ÕÄ¿Â¼ XXÖ¸Ä¿Â¼Ãû
-pwd£ºÏÔÊ¾µ±Ç°Ä¿Â¼µÄÂ·¾¶
-cat xx£º²é¿´xxÎÄ¼şÄÚÈİ
-git init£º°Éµ±Ç°µÄÄ¿Â¼±ä³É¿ÉÒÔ¹ÜÀíµÄgit²Ö¿â£¬Éú³ÉÒş²ØµÄ.gitÎÄ¼ş
-git add xx£º°ÑxxÎÄ¼şÌí¼Óµ½Ôİ´æÇø
-git commit -m ¡°xx¡±£ºÌá½»ÎÄ¼ş -mºóÃæµÄÊÇ×¢ÊÍ
-git status£º²é¿´²Ö¿â×´Ì¬
-git log£º²é¿´ÀúÊ·¼ÇÂ¼
-git reset --hard HEAD^£ºÍøÉÏ»ØÍËÒ»¸ö°æ±¾
-git reflog£º²é¿´ÀúÊ·¼ÇÂ¼µÄ°æ±¾ºÅid
-git checkout -- xx£º°ÑxxÎÄ¼şÔÚ¹¤×÷ÇøµÄĞŞ¸ÄÈ«²¿³·Ïú
-git rm xx£ºÉ¾³ıxxÎÄ¼ş Ö®ºóÒªcommit
-git remote add origin https://github.com/qiuhaifeng01/a.git ¹ØÁªÒ»¸öÔ¶³Ì¿â
-git push -u£¨µÚÒ»´ÎÒªÓÃ-uÒÔºó²»ÓÃ£©origin master£º°Ñµ±Ç°master·ÖÖ§ÍÆËÍµ½Ô¶³Ì¿â
-git clone https://github.com/xxxxx   ´ÓÔ¶³Ì¿âÖĞ¿ËÂ¡
-git checkout -b dev£º´´½¨dev·ÖÖ§ ²¢ÇĞ»»µ½dev·ÖÖ§ÉÏ
-git branch£º²é¿´µ±Ç°ËùÓĞµÄ·ÖÖ§
-git checkout master£ºÇĞ»»»Ømaster·ÖÖ§
-git merge dev£ºÔÚµ±Ç°·ÖÖ§ºÏ²¢dev·ÖÖ§
-git branch -d dev£ºÉ¾³ıdev·ÖÖ§
-git branch xxx£º´´½¨·ÖÖ§xxx
-git remote£º²é¿´Ô¶³Ì¿âĞÅÏ¢
-git remote -v²é¿´Ô¶³Ì¿âµÄÏêÏ¸ĞÅÏ¢
-git pull origin master ½«Ô¶³Ì¿âµÄ¸üĞÂÀ­È¡µ½±¾µØÀ´
-git push origin master£ºgit»á°Ñmaster·ÖÖ§ÍÆËÍµ½Ô¶³Ì¿â¶ÔÓ¦µÄ·ÖÖ§ÉÏ
+mkdir XXï¼šåˆ›å»ºä¸€ä¸ªç©ºç›®å½• XXæŒ‡ç›®å½•å
+pwdï¼šæ˜¾ç¤ºå½“å‰ç›®å½•çš„è·¯å¾„
+cat xxï¼šæŸ¥çœ‹xxæ–‡ä»¶å†…å®¹
+git initï¼šå§å½“å‰çš„ç›®å½•å˜æˆå¯ä»¥ç®¡ç†çš„gitä»“åº“ï¼Œç”Ÿæˆéšè—çš„.gitæ–‡ä»¶
+git add xxï¼šæŠŠxxæ–‡ä»¶æ·»åŠ åˆ°æš‚å­˜åŒº
+git commit -m â€œxxâ€ï¼šæäº¤æ–‡ä»¶ -måé¢çš„æ˜¯æ³¨é‡Š
+git logï¼šæŸ¥çœ‹å†å²è®°å½•
+git reset --hard HEAD^ï¼šç½‘ä¸Šå›é€€ä¸€ä¸ªç‰ˆæœ¬
+git reflogï¼šæŸ¥çœ‹å†å²è®°å½•çš„ç‰ˆæœ¬å·id
+git checkout -- xxï¼šæŠŠxxæ–‡ä»¶åœ¨å·¥ä½œåŒºçš„ä¿®æ”¹å…¨éƒ¨æ’¤é”€
+git rm xxï¼šåˆ é™¤xxæ–‡ä»¶ ä¹‹åè¦commit
+git remote add origin https://github.com/qiuhaifeng01/a.git å…³è”ä¸€ä¸ªè¿œç¨‹åº“
+git push -uï¼ˆç¬¬ä¸€æ¬¡è¦ç”¨-uä»¥åä¸ç”¨ï¼‰origin masterï¼šæŠŠå½“å‰masteråˆ†æ”¯æ¨é€åˆ°è¿œç¨‹åº“
+git clone https://github.com/xxxxx   ä»è¿œç¨‹åº“ä¸­å…‹éš†
+git checkout -b devï¼šåˆ›å»ºdevåˆ†æ”¯ å¹¶åˆ‡æ¢åˆ°devåˆ†æ”¯ä¸Š
+git branchï¼šæŸ¥çœ‹å½“å‰æ‰€æœ‰çš„åˆ†æ”¯
+git checkout masterï¼šåˆ‡æ¢å›masteråˆ†æ”¯
+git merge devï¼šåœ¨å½“å‰åˆ†æ”¯åˆå¹¶devåˆ†æ”¯
+git branch -d devï¼šåˆ é™¤devåˆ†æ”¯
+git branch xxxï¼šåˆ›å»ºåˆ†æ”¯xxx
+git remoteï¼šæŸ¥çœ‹è¿œç¨‹åº“ä¿¡æ¯
+git remote -væŸ¥çœ‹è¿œç¨‹åº“çš„è¯¦ç»†ä¿¡æ¯
+git pull origin master å°†è¿œç¨‹åº“çš„æ›´æ–°æ‹‰å–åˆ°æœ¬åœ°æ¥
+git push origin masterï¼šgitä¼šæŠŠmasteråˆ†æ”¯æ¨é€åˆ°è¿œç¨‹åº“å¯¹åº”çš„åˆ†æ”¯ä¸Š
